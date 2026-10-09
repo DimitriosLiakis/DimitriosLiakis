@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Dimitrios Liakis 👋</h1>
 
 <p align="center">
-  Electrical &amp; Computer Engineer (NTUA) · Machine learning for medical imaging
+  Electrical &amp; Computer Engineer (NTUA) · AI/ML engineering · Medical image analysis
 </p>
 
 <p align="center">
@@ -14,26 +14,30 @@
 ### About me
 
 I recently completed my Diploma (integrated MEng) in Electrical & Computer Engineering at the
-**National Technical University of Athens (NTUA)**. My thesis studied **semi-supervised 3D
-medical image segmentation**: State Space Models (Mamba) versus CNNs, uncertainty-aware training
-with very few labels, and post-processing, all on a single free Kaggle GPU.
+**National Technical University of Athens (NTUA)**. For my thesis I built and evaluated a semi-supervised
+3D segmentation pipeline for pancreas CT. It compares a Mamba (State Space Model) backbone with a 3D U-Net and
+runs end to end on a single free GPU.
 
-I'm looking for **junior Machine Learning / Computer Vision roles**, starting in summer 2027.
+I'm looking for **junior AI/ML engineering roles**, especially in **medical imaging and healthcare AI**,
+starting in summer 2027.
 
 ### Featured project: diploma thesis
 
-**[Swin-UMamba vs. 3D U-Net for semi-supervised pancreas segmentation](https://github.com/DimitriosLiakis/swin-umamba-dycon-lcc)**
+**[Mamba vs. 3D U-Net for semi-supervised pancreas segmentation](https://github.com/DimitriosLiakis/mamba-vs-unet3d-pancreas-ct)**
 
-- Compared a Mamba-based backbone (Swin-UMamba) with a 3D U-Net on pancreas CT, both trained with
-  the DyCON semi-supervised framework (CVPR 2025).
-- With only **12 labeled scans**, 3D U-Net + DyCON + LCC reaches **71.1% Dice**, on par with 71.9% for full
-  supervision on 62 scans.
-- Showed that largest-connected-component post-processing is the biggest single lever for boundary
-  accuracy: it halved Swin-UMamba's HD95.
-- Fit 3D training on one Kaggle GPU with mixed precision, gradient accumulation and chunked
-  slice-wise processing.
+- Integrated a 2D Mamba U-Net (Swin-UMamba) into DyCON (CVPR 2025), a semi-supervised mean-teacher framework
+  for 3D CT, and compared it with a 3D U-Net.
+- Trained everything on one free 16 GB GPU, using:
+  - 64³ patches and gradient accumulation;
+  - chunked slice-wise processing;
+  - full-state checkpoints to resume across time-limited sessions.
+- Found that a parameter-free post-processing step, largest connected component, gave the largest single
+  improvement. It halved Swin-UMamba's HD95 and cut the 3D U-Net's surface distance from 21.6 to 2.2 voxels.
+- A post-submission audit found two issues inherited from the upstream code: evaluation scans that overlap
+  the training list, and ground-truth masks of "unlabeled" scans leaking into the contrastive loss. The
+  repository documents both and evaluates on held-out scans by default.
 
-### Tech
+### What I work with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
@@ -44,5 +48,5 @@ I'm looking for **junior Machine Learning / Computer Vision roles**, starting in
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white)
 
-Deep learning · 3D medical image segmentation · semi-supervised & contrastive learning ·
-State Space Models (Mamba)
+Deep learning · 3D medical image segmentation (CT) · semi-supervised and contrastive learning ·
+State Space Models (Mamba) · training under tight GPU budgets · model evaluation
