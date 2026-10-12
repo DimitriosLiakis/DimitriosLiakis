@@ -35,9 +35,6 @@ Outside engineering, I'm a trained Byzantine and classical singer, which is wher
   - full-state checkpoints to resume across time-limited sessions.
 - Found that a parameter-free post-processing step, largest connected component, gave the largest single
   improvement. It halved Swin-UMamba's HD95 and cut the 3D U-Net's surface distance from 21.6 to 2.2 voxels.
-- A code review after submission found two issues inherited from the upstream code: evaluation scans that overlap
-  the training list, and ground-truth masks of "unlabeled" scans leaking into the contrastive loss. The
-  repository documents both and evaluates on held-out scans by default.
 
 ### Other projects
 
