@@ -39,6 +39,23 @@ Outside engineering, I'm a trained Byzantine and classical singer, which is wher
   the training list, and ground-truth masks of "unlabeled" scans leaking into the contrastive loss. The
   repository documents both and evaluates on held-out scans by default.
 
+### Other projects
+
+- **[Toll Interoperability Platform](https://github.com/DimitriosLiakis/toll-interoperability-platform)**: a
+  full-stack platform for highway toll operators (team project, Software Engineering 2024–25). I built the React
+  front-end: the station map (Leaflet), the statistics dashboard, debt settlement and the UI for the ML traffic
+  forecasts.
+- **[clearSKY](https://github.com/DimitriosLiakis/clearsky-grading-saas)**: a microservices SaaS for university
+  grades (team project, SaaS 2025). I built most of the Express/EJS front-end, the grade charts (ECharts) and its
+  Docker setup, plus the endpoints it needs in the Go orchestrator.
+- **[Pulse Festival Database](https://github.com/DimitriosLiakis/pulse-festival-database)**: a MySQL database for
+  a music festival with triggers, 15 analytical queries and query optimization (individual project, Databases
+  2024–25).
+- **[MediaLab Assistant](https://github.com/DimitriosLiakis/medialab-task-manager)**: a JavaFX desktop task manager
+  with priorities, deadlines, reminders and JSON persistence (individual project, Multimedia Technology 2024–25).
+- **[Chordify](https://github.com/klarinetos/chordify)**: the Chord distributed hash table with configurable
+  replication and two consistency models (team project, Distributed Systems).
+
 ### What I work with
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
@@ -49,6 +66,9 @@ Outside engineering, I'm a trained Byzantine and classical singer, which is wher
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?logo=latex&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 
 Deep learning · 3D medical image segmentation (CT) · semi-supervised and contrastive learning ·
 State Space Models (Mamba) · training under tight GPU budgets · model evaluation
