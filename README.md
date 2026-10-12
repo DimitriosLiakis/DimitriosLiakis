@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dimitris-liakis-303886277/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:el20846@mail.ntua.gr"><img src="https://img.shields.io/badge/Email-D14836" alt="Email"/></a>
+  <a href="mailto:dimliakis2001@gmail.com"><img src="https://img.shields.io/badge/Email-D14836" alt="Email"/></a>
 </p>
 
 ---
