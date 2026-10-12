@@ -15,7 +15,7 @@
 
 I'm an Electrical & Computer Engineering graduate (Diploma, integrated MEng) from the
 **National Technical University of Athens (NTUA)**, specializing in deep learning for medical image analysis.
-For my thesis I built and evaluated a semi-supervised 3D segmentation pipeline for pancreas CT. It compares a
+For my thesis, I built and evaluated a semi-supervised 3D segmentation pipeline for pancreas CT. It compares a
 Mamba (State Space Model) backbone with a 3D U-Net and runs end to end on a single free GPU.
 
 I'm looking for **AI/ML engineering roles**, especially in **medical imaging and computer vision**, based in
