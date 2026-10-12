@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Dimitrios Liakis 👋</h1>
 
 <p align="center">
-  Electrical &amp; Computer Engineer (NTUA) · AI/ML engineering · Medical image analysis
+  Electrical &amp; Computer Engineer (NTUA) · Deep learning for medical image analysis · Computer vision
 </p>
 
 <p align="center">
@@ -13,13 +13,15 @@
 
 ### About me
 
-I recently completed my Diploma (integrated MEng) in Electrical & Computer Engineering at the
-**National Technical University of Athens (NTUA)**. For my thesis I built and evaluated a semi-supervised
-3D segmentation pipeline for pancreas CT. It compares a Mamba (State Space Model) backbone with a 3D U-Net and
-runs end to end on a single free GPU.
+I'm an Electrical & Computer Engineering graduate (Diploma, integrated MEng) from the
+**National Technical University of Athens (NTUA)**, specializing in deep learning for medical image analysis.
+For my thesis I built and evaluated a semi-supervised 3D segmentation pipeline for pancreas CT. It compares a
+Mamba (State Space Model) backbone with a 3D U-Net and runs end to end on a single free GPU.
 
-I'm looking for **junior AI/ML engineering roles**, especially in **medical imaging and healthcare AI**,
-starting in summer 2027.
+I'm looking for **AI/ML engineering roles**, especially in **medical imaging and computer vision**, based in
+Greece or remote, from summer 2027. Fluent in English (C2).
+
+Outside engineering, I'm a trained Byzantine and classical singer, which is where I get my patience for detail.
 
 ### Featured project: diploma thesis
 
@@ -33,7 +35,7 @@ starting in summer 2027.
   - full-state checkpoints to resume across time-limited sessions.
 - Found that a parameter-free post-processing step, largest connected component, gave the largest single
   improvement. It halved Swin-UMamba's HD95 and cut the 3D U-Net's surface distance from 21.6 to 2.2 voxels.
-- A post-submission audit found two issues inherited from the upstream code: evaluation scans that overlap
+- A code review after submission found two issues inherited from the upstream code: evaluation scans that overlap
   the training list, and ground-truth masks of "unlabeled" scans leaking into the contrastive loss. The
   repository documents both and evaluates on held-out scans by default.
 
