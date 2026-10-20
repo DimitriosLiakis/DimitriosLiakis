@@ -21,7 +21,8 @@ Mamba (State Space Model) backbone with a 3D U-Net and runs end to end on a sing
 I'm looking for **AI/ML engineering roles**, especially in **medical imaging and computer vision**, based in
 Greece or remote, and I'm available to start now. Fluent in English (C2).
 
-Outside engineering, I'm a trained Byzantine and classical singer, which is where I get my patience for detail.
+Outside engineering, I hold a Diploma of Byzantine Music Teacher and I'm studying classical singing and vocal
+technique. Music is where I get my patience for detail.
 
 ### Featured project: diploma thesis
 
@@ -30,9 +31,9 @@ Outside engineering, I'm a trained Byzantine and classical singer, which is wher
 - Integrated a 2D Mamba U-Net (Swin-UMamba) into DyCON (CVPR 2025), a semi-supervised mean-teacher framework
   for 3D CT, and compared it with a 3D U-Net.
 - Trained everything on one free 16 GB GPU, using:
-  - 64³ patches and gradient accumulation;
-  - chunked slice-wise processing;
-  - full-state checkpoints to resume across time-limited sessions.
+  - 64³ patches and gradient accumulation
+  - chunked slice-wise processing
+  - full-state checkpoints to resume across time-limited sessions
 - Found that a parameter-free post-processing step, largest connected component, gave the largest single
   improvement. It halved Swin-UMamba's HD95 and cut the 3D U-Net's surface distance from 21.6 to 2.2 voxels.
 
