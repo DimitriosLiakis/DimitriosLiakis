@@ -19,7 +19,7 @@ For my thesis, I built and evaluated a semi-supervised 3D segmentation pipeline 
 Mamba (State Space Model) backbone with a 3D U-Net and runs end to end on a single free GPU.
 
 I'm looking for **AI/ML engineering roles**, especially in **medical imaging and computer vision**, based in
-Greece or remote, and I'm available to start now. Fluent in English (C2).
+Greece or remote. Fluent in English (C2).
 
 Outside engineering, I hold a Diploma of Byzantine Music Teacher and I'm studying classical singing and vocal
 technique. Music is where I get my patience for detail.
